@@ -9,6 +9,7 @@
 
 # weaknesses
 # requires absolute filepath
+# only works with Mint Cinnamon
 
 gsettings set  org.cinnamon.desktop.background picture-uri 'file:///home/pablo/Pictures/wallpapers/halloween/pumpkin1.jpg'
 
@@ -16,3 +17,7 @@ gsettings set  org.cinnamon.desktop.background picture-uri 'file:///home/pablo/P
 
 # REFERENCED FROM:
 # https://forums.linuxmint.com/viewtopic.php?t=177294
+
+# TODO:
+# add filechooser and directory functionality
+# rewrite for cross-distro compatibility
